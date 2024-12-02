@@ -1,33 +1,19 @@
-# Smart Siren (Ambulance-Tracker) 🚑
+# EMS Response Optimization Model
 
-This web app assists hospitals by bridging the communication gap between Ambulance driver and hospital management especially during emergency cases. This web app successfully tracks and alerts hospital management by which delay in treatment of patient can be reduced. This could potentially save lives.
+This web app assists citizens and hospital management teams to create optimized response times. 
 
-This webapp notifies hospital when an ambulance is within 3km range of a hospital. This will be very useful at times of emergency cases which assists in timely treatement of patients. This works by tracking ambulance location(coordinates) in real-time. The location stats will also be updated in realtime on hospital's display board.
+Steps to run:
 
-This webapp was built using `ReactJS`, `Node.js`, `Express`, `MongoDB`, `Socket.io`, `Geo-location API`, `TailwindCSS`.
+Before you start you have to run the following commands in your terminal: pip install flask, pip install sklearn, pip install xbgoost, pip install pandas, pip install numpy
 
-To install the webapp, run the following commands:-
+First, you must make sure that 40kexpandedEMSData_withFakeData.csv is opening correctly
 
-    - https://github.com/csgeeek/Ambulance-tracker.git
-    - npm install (in server, clients folders)
+Then, you can open the train_testXGB.py file and run it
 
-To initialize the project follow the below steps:- 
+After this is completed, you can type python3 app.py which will create a localhost and launch the website
 
-    - Download and install MongoDB compass 
-    - Create a database with <DB_NAME> in the MongoDB compass application
-    - Create a .env file in the server folder with the following details DB_URI=https://localhost:27017/<DB_NAME>
+Lastly, go to http://localhost:5000
 
-Run the project => `npm start`
+The above may be different for each user, but the link should be displayed in the terminal once app.py is run
 
-## Links
-Check out the working of my project [here](https://youtu.be/KkqGRHMl9Sk).
-
-Check out the deployed web app [here](https://react-amb-driver.herokuapp.com/ ).
-
-## Upcoming Features
-Integrate with UHS.
-
-## Fun-Fact
-This project has got selected for `Google Startup Bootcamp`.
-
-❤❤
+Enjoy! Thank you. 
