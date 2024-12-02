@@ -491,7 +491,7 @@
 
                                             <h4 class="small font-weight-bold">Traffic <span
                                                 id="traffic-block" class="float-right">
-                                                {% if not traffic_severity|int %}
+                                                {% if not traffic_severity %}
                                                     Medium
                                                 {% elif 0 < traffic_severity|int < 33 %}
                                                     Low

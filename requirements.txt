@@ -1,1 +1,7 @@
-pip3 install flask
+pip install flask
+pip install sklearn
+pip install xbgoost
+pip install pandas
+pip install numpy
+
+
